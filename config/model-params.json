@@ -1,0 +1,6 @@
+{
+    "train_pct": 0.75,
+    "n_trees": 100,
+    "depth": 5,
+    "outpath": "data/out/model.pkl"
+}

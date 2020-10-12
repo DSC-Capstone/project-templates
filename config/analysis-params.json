@@ -1,0 +1,4 @@
+{
+    "agg_by": "week",
+    "outpath": "data/temp/agg.csv"
+}
