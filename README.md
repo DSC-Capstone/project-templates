@@ -1,9 +1,11 @@
-# Generic Simple Project Template
+# Project Templates
 
-This repository contains skeleton code for a generic project.
+This repository contains toy implementations of a data science project
+using Cookie Cutter Data Science type templates.
 
-This code does not run, as the functions are not implemented. There
-should be enough detail to illustrate how the components of the
-project are strung together.
+Checkout out different branches for different examples.
 
+### Branches
+
+* `skeleton`: skeleton code for a simple example
 
