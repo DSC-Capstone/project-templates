@@ -1,0 +1,4 @@
+{
+    "feats": ["honorific", "last_name", "sex2bin", "Fare"],
+    "outfile": "data/temp/features-simple.csv"
+}

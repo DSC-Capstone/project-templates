@@ -1,0 +1,8 @@
+{
+    "test_size": 0.30,
+    "modeltype": "RandomForestClassifier",
+    "n_estimators": 100,
+    "max_depth": 5,
+    "mdl_fp": "data/out/model.joblib",
+    "predictions_fp": "data/out/preds.csv"
+}
