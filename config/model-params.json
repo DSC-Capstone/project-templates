@@ -1,0 +1,20 @@
+{
+    "test_size": 0.30,
+    "nodes_in_first_layer": 64,
+    "nodes_in_second_layer": 32,
+    "nodes_in_third_layer": 32,
+    
+    "activation_first_layer": "relu",
+    "activation_second_layer": "relu",
+    "activation_third_layer": "relu",
+    "activation_output_layer": "linear",
+    
+    "optimizer": "adam",
+    "loss": "MSE",
+    
+    "batch_size": 32, 
+    "epochs": 10,
+    
+    "mdl_fp": "data/out/model.h5",
+    "predictions_fp": "data/out/preds.csv"
+}

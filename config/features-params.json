@@ -1,0 +1,4 @@
+{
+    "feats": ["CYLINDERS","ENGINESIZE"],
+    "outfile": "data/temp/features-simple.csv"
+}
