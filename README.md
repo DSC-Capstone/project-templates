@@ -8,4 +8,5 @@ Checkout out different branches for different examples.
 ### Branches
 
 * `skeleton`: skeleton code for a simple example
-
+* `titanic`: Titanic ML classifier, with how to deal with API tokens.
+* `nn_regression`: Training neural network regressor, with local dataset and anaconda requirements setup.
