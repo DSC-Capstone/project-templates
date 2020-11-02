@@ -1,0 +1,3 @@
+scipy
+pandas
+pytest-shutil
