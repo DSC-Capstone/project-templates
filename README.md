@@ -1,13 +1,14 @@
-# Project Templates
+# Example Project: K-Means clustering on CIFAR-10
 
-This repository contains toy implementations of a data science project
-using Cookie Cutter Data Science type templates.
+This project illustrates structuring a DS project clusters images of CIFAR-10 dataset. While the quality of the approach to building a model is not set to a high standard, the code is just non-trivial enough to illustrate how to handle making a DS project rerunnable and easy to navigate.
 
-Checkout out different branches for different examples.
+### Running the project
+To install the dependencies, run the following command from the root directory of the project: 
+pip install -r requirements.txt
 
-### Branches
+### Building the project stages using run.py
 
-* `skeleton`: skeleton code for a simple example
-* `titanic`: Titanic ML classifier, with how to deal with API tokens.
-* `nn_regression`: Training neural network regressor, with local dataset and anaconda requirements setup.
-* `think_stats`: Statistical analysis with notebook usage
+* To get the data, from the project root dir, run python run.py data
+  * This downloads the data from https://www.cs.toronto.edu/~kriz/cifar.html in the directory specified in config/data-params.json.
+* To get the clustering results on the data, from the project root dir, run python run.py data model
+  * This fetches the data and saves the output in data/out
