@@ -1,13 +1,9 @@
 # Project Templates
 
-This repository contains toy implementations of a data science project
-using Cookie Cutter Data Science type templates.
+This repository contains a toy implementation of:
+* an (development) EDA, and
+* an updateable, reusable, report.
+  * automatically created HTML from notebooks
+  * code cells are stripped out
 
-Checkout out different branches for different examples.
-
-### Branches
-
-* `skeleton`: skeleton code for a simple example
-* `titanic`: Titanic ML classifier, with how to deal with API tokens.
-* `nn_regression`: Training neural network regressor, with local dataset and anaconda requirements setup.
-* `think_stats`: Statistical analysis with notebook usage
+To run the repository, run `python run.py data eda`
